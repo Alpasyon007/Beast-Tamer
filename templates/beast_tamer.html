@@ -34,7 +34,7 @@
 <!-- STATUS BAR -->
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid row text-white">
-                <div class="col text-start">
+                <!-- <div class="col text-start">
                     <p class="desktop display-5">
                         {% if isWoke %}
                         <span><i class="text-success fas fa-circle"></i> Beast Status: Online</span>
@@ -49,8 +49,8 @@
                         <span><i class="text-danger fas fa-circle"></i> Off</span>
                         {% endif %}
                     </p>
-                </div>
-                <div class="col text-center">
+                </div> -->
+                <div class="col text-start">
                     <p class="desktop display-5">
                         <span></span>Beast Tamer</span>
                     </p>
@@ -93,39 +93,39 @@
         <div class="row p-3 justify-content-center align-items-center">
             <div class="col">
                 <form action="/" method="POST" class="d-grid gap-2">
-                    {% if isWoke %}
+                    <!-- {% if isWoke %}
                     <input id="wake_btn" type="submit" name="submit" value="Wake the Beast"
                         class="btn btn-success btn-lg border border-success rounded p-4" disabled>
-                    {% else %}
+                    {% else %} -->
                     <input id="wake_btn" type="submit" name="submit" value="Wake the Beast"
                         class="btn btn-success btn-lg border border-success rounded p-4">
-                    {% endif %}
+                    <!-- {% endif %} -->
                 </form>
             </div>
         </div>
         <div class="row p-3 justify-content-center align-items-center">
             <div class="col">
                 <form action="/" method="POST" class="d-grid gap-2">
-                    {% if isWoke %}
+                    <!-- {% if isWoke %} -->
                     <input id="kill_btn" type="submit" name="submit" value="Kill the Beast"
                         class="btn btn-danger btn-lg border border-danger rounded p-4">
-                    {% else %}
+                    <!-- {% else %}
                     <input id="kill_btn" type="submit" name="submit" value="Kill the Beast"
                         class="btn btn-danger btn-lg border border-danger rounded p-4" disabled>
-                    {% endif %}
+                    {% endif %} -->
                 </form>
             </div>
         </div>
         <div class="row p-3 justify-content-center align-items-center">
             <div class="col">
                 <form action="/" method="POST" class="d-grid gap-2">
-                    {% if isWoke %}
-                    <input id="restart_btn" type="submit" name="submit" value="Restart the Beast"
-                        class="btn btn-warning btn-lg border border-warning rounded p-4">
-                    {% else %}
+                    <!-- {% if isWoke %} -->
                     <input id="restart_btn" type="submit" name="submit" value="Restart the Beast"
                         class="btn btn-warning btn-lg border border-warning rounded p-4" disabled>
-                    {% endif %}
+                    <!-- {% else %}
+                    <input id="restart_btn" type="submit" name="submit" value="Restart the Beast"
+                        class="btn btn-warning btn-lg border border-warning rounded p-4" disabled>
+                    {% endif %} -->
                 </form>
             </div>
         </div>

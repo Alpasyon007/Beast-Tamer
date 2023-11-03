@@ -24,7 +24,7 @@ class User(UserMixin):
     def __init__(self, id):
         self.id = id
         self.name = str(id)
-        self.password = "SHA-256 PASSWORD HASH"
+        self.password = "0aef7080e0ce1621f216a7ba9b4bae62225a59f14210c8191cc75388df4bcf9d"
         
     def __repr__(self):
         return "%d/%s/%s" % (self.id, self.name, self.password)
